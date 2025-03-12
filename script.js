@@ -207,8 +207,11 @@
 
 // metod -> tayyor funksiya => obyektda,arrayda,stringda =>
 
-     const hojiaka='Xujaabad';
-     console.log('kesish:',hojiaka.slice(1,5));
+     //const hojiaka='Xujaabad';
+     
+     
+     
+     //console.log('kesish:',hojiaka.slice(1,5));
      
      
      
@@ -229,3 +232,29 @@
   
 //    // slice=> substring
 //   console.log(hojiaka);
+
+
+
+
+
+// const CalculateXojiaka=function(a)
+//  {
+//      return a*5;
+//  }
+//  console.log(CalculateXojiaka(5));
+
+
+
+
+
+// function sayHello() {
+//   console.log("Hello, World!");
+// }
+// sayHello();
+
+
+
+
+
+ const hojiaka='XUJAABAD';
+ console.log('toza kesish',hojiaka.slice(1,-4));
