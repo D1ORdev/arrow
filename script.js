@@ -256,5 +256,23 @@
 
 
 
- const hojiaka='XUJAABAD';
- console.log('toza kesish',hojiaka.slice(1,-4));
+//  const hojiaka='XUJAABAD';
+//  console.log('toza kesish',hojiaka.slice(1,-4));
+
+
+
+
+
+// slice=> substring
+const Password='     ozbekiston    ' //parol
+//trim
+console.log(Password);
+console.log(Password.trim());
+console.log(Password.trimStart());
+// trimstart- oldidagi space chopadi
+console.log(Password.trimEnd());
+// trim methoddi bizga ortiqcha spacelarni qirqish uchun ishlatamiz
+
+// trimdi bizga ortiqcha spacelarni qirqish uchun ishlatamiz
+const son=13.4;
+console.log(son);
