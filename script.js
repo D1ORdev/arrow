@@ -263,16 +263,74 @@
 
 
 
-// slice=> substring
-const Password='     ozbekiston    ' //parol
-//trim
-console.log(Password);
-console.log(Password.trim());
-console.log(Password.trimStart());
-// trimstart- oldidagi space chopadi
-console.log(Password.trimEnd());
-// trim methoddi bizga ortiqcha spacelarni qirqish uchun ishlatamiz
+// // slice=> substring
+// const Password='     ozbekiston    ' //parol
+// //trim
+// console.log(Password);
+// console.log(Password.trim());
+// console.log(Password.trimStart());
+// // trimstart- oldidagi space chopadi
+// console.log(Password.trimEnd());
+// // trim methoddi bizga ortiqcha spacelarni qirqish uchun ishlatamiz
 
-// trimdi bizga ortiqcha spacelarni qirqish uchun ishlatamiz
-const son=13.4;
-console.log(son);
+// // trimdi bizga ortiqcha spacelarni qirqish uchun ishlatamiz
+// const son=13.4;
+// console.log(son);
+
+
+// const person = {
+//   firstName:" Diyor ",
+//   age: 17,
+// };
+// document.getElementById("demo").innerHTML = 
+// person.firstName + person.age + " yoshda ";
+
+
+
+
+
+
+// let a=prompt("Is Student?");
+// if(a>18){
+//   console.log(true)
+// }
+// else{
+//   console.log(false)
+// }
+   
+
+
+
+
+
+// let a=prompt("Favourite Color")
+// console.log(a);
+
+
+
+
+
+
+
+
+
+let text = "Shashlik yedim!";
+console.log(text.toLowerCase());
+
+
+
+
+
+
+// let sentence = "Shashlik";
+// console.log(sentence.length);
+
+
+
+
+
+
+// let longString = "Bugun havo juda ajoyib! Ertaga esa yana ham yaxshi bo'ladi.";
+// let wordToFind = "havo";
+// let position = longString.indexOf(wordToFind);
+// console.log(`"${wordToFind}" so'zi ${position}-indeksda joylashgan.`);
