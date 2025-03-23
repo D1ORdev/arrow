@@ -279,11 +279,12 @@
 
 
 // const person = {
-//   firstName:" Diyor ",
-//   age: 17,
+//   firstName:" Adolf ",
+//   lastName:" Hitler ",
+//   age: 56,
 // };
 // document.getElementById("demo").innerHTML = 
-// person.firstName + person.age + " yoshda ";
+// person.firstName + person.lastName + person.age + " yoshda vafot etgan ";
 
 
 
@@ -314,8 +315,8 @@
 
 
 
-let text = "Shashlik yedim!";
-console.log(text.toLowerCase());
+// let text = "Shashlik yedim!";
+// console.log(text.toLowerCase());
 
 
 
@@ -334,3 +335,67 @@ console.log(text.toLowerCase());
 // let wordToFind = "havo";
 // let position = longString.indexOf(wordToFind);
 // console.log(`"${wordToFind}" so'zi ${position}-indeksda joylashgan.`);
+
+
+
+// let a=prompt("Birinchi sonni kiriting!");
+// a=Number(a);
+// let b=prompt("Ikkinchi sonni ham kiriting!");
+// b=Number(b);
+// c=a+b;
+
+// console.log(c);
+
+
+
+
+
+
+
+// function add(a, b) {
+//   return a * b;
+// }
+
+// let a = Number(prompt("Birinchi sonni kiriting!"));
+// let b = Number(prompt("Ikkinchi sonni ham kiriting!"));
+
+// let result = add(a, b);
+// console.log("Yig‘indi:", result);
+
+
+
+
+
+
+// function multiply(a, b) {
+//   return a * b;
+// }
+
+// let a = Number(prompt("Birinchi sonni kiriting!"));
+// let b = Number(prompt("Ikkinchi sonni ham kiriting!"));
+
+// let result = multiply(a, b);
+// console.log("Ko‘paytma:", result);
+
+
+
+
+
+
+
+// function greet(name) {
+//   console.log("Assalomu alaykum, " + name + "!");
+// }
+
+// greet("D1or"); // Ismingizni shu joyga yozishingiz kerak
+
+
+
+
+
+// function concatStrings(pasw1, pasw2) {
+//   return pasw1 + " " + pasw2; 
+// }
+
+// let result = concatStrings("Salom", "D1or!");
+// console.log(result); 
