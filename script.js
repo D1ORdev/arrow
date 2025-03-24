@@ -278,13 +278,13 @@
 // console.log(son);
 
 
-// const person = {
-//   firstName:" Adolf ",
-//   lastName:" Hitler ",
-//   age: 56,
+// const book = {
+//   title:" 1984 ",
+//   author:" George Orwell ",
+//   pages: 400 ,
 // };
 // document.getElementById("demo").innerHTML = 
-// person.firstName + person.lastName + person.age + " yoshda vafot etgan ";
+// book.title + " kitobi muallifi " + book.author + " bo'lib " + " kitob " + book.pages + " sahifadan iborat! ";
 
 
 
@@ -399,3 +399,106 @@
 
 // let result = concatStrings("Salom", "D1or!");
 // console.log(result); 
+
+
+
+
+
+
+
+
+
+// function isEven(number) {
+//   return number % 2 === 0;
+// }
+
+
+// console.log(isEven(8));  // true
+// console.log(isEven(7));  // false
+
+
+
+
+// let a=prompt("Sonlarni  kirit!")
+// a=Number(a);
+// let b=prompt("yana kirit!")
+// b=Number(b);
+// if(a>b){
+//   console.log(a)
+// }
+// else{
+//   console.log(b)
+// }                 // bu versiya ham yaxshi ammo bu prompt bilan!
+
+
+
+
+
+// function maxNumber(a, b) {
+//   return a > b ? a : b;
+// }
+
+// let a = Number(prompt("Sonlarni kirit!"));
+// let b = Number(prompt("Yana kirit!"));
+
+// console.log(maxNumber(a, b));  // bu funksiyali varianti!!
+
+
+
+
+
+
+// let a = Number(prompt("Yoshingiz nechchida?")); 
+// if (a >= 18) {
+//     console.log("Voyaga yetgan"); 
+// } else {
+//     console.log("Voyaga yetmagan");
+// }          //prompt varianti
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function checkAge() {
+//   let age = Number(prompt("Yoshingiz nechchida?"));
+//   return age >= 18 ? "Voyaga yetgan" : "Voyaga yetmagan";
+// }
+
+
+// console.log(checkAge());          //funksiya varianti
+
+
+
+
+// function checkNumber() {
+//   let num = Number(prompt("Sonni kiriting!"));
+//   if (num > 0) {
+//       return "Musbat";
+//   } else if (num < 0) {
+//       return "Manfiy";
+//   } else {
+//       return "Nol";
+//   }
+// }
+
+
+// console.log(checkNumber());
+
+
+
+
+// function isEqual() {
+//   let str1 = prompt("Birinchi satrni kiriting:");
+//   let str2 = prompt("Ikkinchi satrni kiriting:");
+//   return str1 === str2;
+// }
+
+// console.log(isEqual());
