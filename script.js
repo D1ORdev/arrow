@@ -206,15 +206,16 @@
 
 
 // metod -> tayyor funksiya => obyektda,arrayda,stringda =>
+  
 
-     //const hojiaka='Xujaabad';
+
+
+
+    //  const a=prompt('Matnni kiriting!');
      
+    //  console.log(a[0]);
      
-     
-     //console.log('kesish:',hojiaka.slice(1,5));
-     
-     
-     
+
      // 12 ta belgi bor
      //console.log(hojiaka.length);
    
@@ -469,7 +470,7 @@
 
 // function checkAge() {
 //   let age = Number(prompt("Yoshingiz nechchida?"));
-//   return age >= 18 ? "Voyaga yetgan" : "Voyaga yetmagan";
+//   return age >= 18 ? "Siz ovoz berishingiz mumkin!" : "Siz Hali yoshsiz,Ko'tizi arting!";
 // }
 
 
@@ -502,3 +503,96 @@
 // }
 
 // console.log(isEqual());
+
+
+
+
+
+
+
+
+
+
+
+// let a=prompt("Sonni kiriting!");
+// a=Number(a);
+// let b=prompt("Yana kiriting!");
+// b=Number(b);
+// c=a+b;
+// console.log(c);
+
+
+
+
+
+
+
+
+// for (let son = 1; son <= 15; son++) {
+//   if (son % 5 === 0) {
+//       console.log(son);
+//   }
+// }
+
+
+
+
+
+
+
+
+// function sayHello() {
+//   return "Salom, dunyo!";
+// }
+
+// function mainFunction(func) {
+//   console.log("Funksiya ichida bajarilmoqda:");
+//   console.log(func()); 
+// }
+
+// mainFunction(sayHello);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const talaba = {
+//   ism: "Anvar",
+//   familiya: "Toshmatov",
+//   yosh:20
+// };
+
+// console.log(talaba.ism); 
+
+
+
+
+
+
+
+
+
+
+
+
+// let word = prompt("Biror so'z kiriting:");
+// let reversedword = word.split("").reverse().join("");
+// console.log("Teskari variant:", reversedword);        // teskari so'z uchun
+
+
+
+
+
+
