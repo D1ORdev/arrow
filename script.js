@@ -595,4 +595,75 @@
 
 
 
+// let i = 10; 
 
+// while (i >= 0) { 
+//     console.log(i);
+//     i--; 
+// }
+
+
+
+
+
+
+
+
+
+// function kvadratPerimetri(side) {
+//   return 4 * side;
+// }
+
+
+// let sidelength = prompt("Kvadratning tomon uzunligini kiriting:");
+// console.log("Kvadratning perimetri:", kvadratPerimetri(sidelength));
+
+
+
+
+
+
+
+
+
+
+// const shaxs = {
+//   ismi: "VALI",
+//   yosh: 30
+
+// }
+// document.getElementById("demo").innerHTML =
+// shaxs.yosh;
+  
+
+
+
+
+
+
+
+
+// let son;
+
+// do {
+//     son = parseFloat(prompt("5 dan katta son kiriting!:"));
+// } while (son <= 5);
+
+// console.log("Siz kiritgan son!:", son);
+
+
+
+
+
+
+
+
+
+
+// let a = 10;
+// let b = 25;
+// let c = 17;
+
+
+// let engKatta = Math.max(a, b, c);
+// console.log("Eng katta son:", engKatta);
