@@ -667,3 +667,333 @@
 
 // let engKatta = Math.max(a, b, c);
 // console.log("Eng katta son:", engKatta);
+
+
+
+
+
+
+
+
+
+// const D1or='salom dunyo!';
+
+// console.log(D1or.toUpperCase(1));
+
+
+
+// const D1or = 'salom dunyo!';
+
+// const capitalized = D1or.replace(/\b\w/g, char => char.toUpperCase());
+
+// console.log(capitalized);
+
+
+
+// function yopishtir(satr1, satr2) {
+//   return satr1 + satr2;
+// }
+
+// let satr1 = prompt("Birinchi so‘zni kiriting:");
+// let satr2 = prompt("Ikkinchi so‘zni kiriting:");
+
+// let natija = yopishtir(satr1, satr2);
+// console.log("Natija:", natija);         //variant 1
+
+
+
+
+
+
+
+
+
+// let satr1 = "Salom, ";
+// let satr2 = "Dunyo!";
+
+// let natija = satr1 + satr2;
+// console.log(natija);      //variant 2
+
+
+
+
+
+
+
+// let week = 1;
+// switch (week)
+// {
+//   case 1:
+//     console.log("Dushanba");
+//     break;
+//   case 2:
+//     console.log("Seshanba");
+//   break;
+//   case 3:
+//     console.log("Chorshanba");
+//   break;
+//   case 4:
+//     console.log("Payshanba");
+//   break;
+//   case 5:
+//     console.log("Juma");
+//   break;
+//   case 6:
+//     console.log("Shanba");
+//   break;
+//   case 7:
+//     console.log("Yakshanba");
+//   break;
+//   default:
+//     console.log("Boshqa kun topilmadi");
+//   break;
+// }
+
+
+
+
+
+
+// function ortaArifmetik(a, b, c, d, e) {
+//   return (a + b + c + d + e) / 5;
+// }
+
+
+// const natija = ortaArifmetik(23, 17, 34, 48, 44);
+// console.log(natija); // without prompt
+
+
+
+
+
+
+
+
+
+// function ortaArifmetik(a, b, c, d, e) {
+//   return (a + b + c + d + e) / 5;
+// }
+
+
+// const a = parseFloat(prompt("1-sonni kiriting: "));
+// const b = parseFloat(prompt("2-sonni kiriting: "));
+// const c = parseFloat(prompt("3-sonni kiriting: "));
+// const d = parseFloat(prompt("4-sonni kiriting: "));
+// const e = parseFloat(prompt("5-sonni kiriting: "));
+
+// const natija = ortaArifmetik(a, b, c, d, e);
+// console.log("O'rta arifmetik: ", natija);
+
+
+
+
+
+
+
+
+
+
+// function engUzunSoz(matn) {
+//   let sozlar = matn.split(" "); 
+//   return sozlar.sort((a, b) => b.length - a.length)[0]; 
+// }
+
+
+// let matn = prompt("Matn kiriting:");
+// console.log("Eng uzun so'z:", engUzunSoz(matn));
+
+
+
+
+
+
+
+
+
+// function belgiSoni(matn, belgi) {
+//   return matn.split(belgi).length - 1;
+// }
+
+
+// let matn = prompt("Matn kiriting:");
+// let belgi = prompt("Qaysi belgini sanashni xohlaysiz:");
+// console.log(`"${belgi}" belgisi ${belgiSoni(matn, belgi)} marta uchradi.`);
+
+
+
+
+
+
+
+
+
+
+
+// let avto = { 
+//   modeli: "Spark",
+//   rangi: "ko'k" 
+// };
+// document.getElementById("demo").innerHTML =
+// avto.rangi;
+
+
+
+
+
+
+
+// for (let son = 1; son <= 20; son++) {
+//   if (son % 2 === 0) {
+//       console.log(son);
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+// function boshJoylarSoni(matn) {
+//   return matn.split(" ").length - 1;
+// }
+
+// let matn = prompt("Matn kiriting:");
+// console.log(`Matnda ${boshJoylarSoni(matn)} ta bo'sh joy bor ekan.`);
+
+
+
+
+
+
+
+
+
+// function tortburchakYuzi(eni, boyi) {
+//   return eni* boyi;
+// }
+
+// // Foydalanish
+// let eni = prompt("To‘rtburchakning enini kiriting:");
+// let boyi = prompt("To‘rtburchakning bo‘yini kiriting:");
+
+// console.log(`To‘rtburchakning yuzi: ${tortburchakYuzi(eni, boyi)}`);
+
+
+
+
+
+
+
+// function raqamlarYigindisi(son) {
+//   return son.toString().split("").reduce((yigindi, raqam) => yigindi + parseInt(raqam), 0);
+// }
+
+// let son = prompt("Sonni kiriting:");
+// console.log(`Raqamlar yig‘indisi: ${raqamlarYigindisi(son)}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let son1 = prompt("Birinchi sonni kiriting:");
+// let son2 = prompt("Ikkinchi sonni kiriting:");
+// let son3 = prompt("Uchinchi sonni kiriting:");
+
+
+// if (son1 === son2 || son1 === son3 || son2 === son3) {
+//     console.log("Bor"); 
+// } else {
+//     console.log("Yo‘q");
+// }
+
+
+
+
+
+
+
+
+
+
+// function palindromTekshirish(soz) {
+//   let teskariSoz = soz.split("").reverse().join(""); 
+//   return soz === teskariSoz; 
+// }
+
+
+// let soz = prompt("Biror so'z kiriting:").toLowerCase(); 
+
+// if (palindromTekshirish(soz)) {
+//   console.log("Bu so‘z palindrom!");
+// } else {
+//   console.log("Bu so‘z palindrom emas!");
+// }
+
+
+
+
+
+
+
+// function vergulniNuqtaga(matn) {
+//   return matn.replace(/,/g, "."); 
+// }
+
+
+// let matn = prompt("Matn kiriting:");
+// console.log(vergulniNuqtaga(matn));
+
+
+
+
+// let grade = prompt("Bahoyingizni kiriting (1 dan 5 gacha):");
+
+// switch (grade) {
+//     case "1":
+//         console.log("1 - Juda yomon");
+//         break;
+//     case "2":
+//         console.log("2 - Qoniqarsiz");
+//         break;
+//     case "3":
+//         console.log("3 - Qoniqarli");
+//         break;
+//     case "4":
+//         console.log("4 - Yaxshi");
+//         break;
+//     case "5":
+//         console.log("5 - A'lo!");
+//         break;
+//     default:
+//         console.log("Daltunmisiz 5dan boshqa baho yo'q!Hoji aka");
+// }
+
+
+
+// let son1 = Number(prompt("Birinchi sonni kiriting!:"));
+// let son2 = Number(prompt("Ikkinchi sonni kiriting!:"));
+
+// if (son1 > son2) {
+//     console.log("Ayirmasi:", son1 - son2);
+// } else {
+//     console.log("Yig'indisi:", son1 + son2);
+// }
+
+
+
+let matn = prompt("Matnni kiriting:");
+let birinchiSoz = matn.split(" ")[0]; 
+console.log("Birinchi so'z:", birinchiSoz);
+
