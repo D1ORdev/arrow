@@ -997,20 +997,36 @@
 // let birinchiSoz = matn.split(" ")[0]; 
 // console.log("Birinchi so'z:", birinchiSoz);
 
-const cars=['damas','cobalt','malibu','gentra 1.5','nexia 2.0']
-console.log(cars.at(2));
-console.log(cars.toString())
-console.log(cars.join(':'));
-console.log(cars)
-delete cars[3];
-console.log(cars)
+// const cars=['damas','cobalt','malibu','gentra 1.5','nexia 2.0']
+// console.log(cars.at(2));
+// console.log(cars.toString())
+// console.log(cars.join(':'));
+// console.log(cars)
+// delete cars[3];
+// console.log(cars)
 
 
 
-const arr1=[1,2,3]
-console.log(arr1)
-const arr2=[3,5,6]
-const arr3=[7,8,9]
-let natija=arr1.concat(arr2,arr3)
+// const arr1=[1,2,3]
+// console.log(arr1)
+// const arr2=[3,5,6]
+// const arr3=[7,8,9]
+// let natija=arr1.concat(arr2,arr3)
 
-console.log(natija)
+// console.log(natija)
+
+
+
+
+// let arr = [1, [2, [3, [4, [5]]]]];
+// let result = arr.flat(Infinity); 
+// console.log(result); // [1, 2, 3, 4, 5]
+
+
+
+// let arr = [1, [2, [3, [4, [5]]]]];
+// let result = arr.flat(3);
+// console.log(result); // [1, 2, 3, 4, [5]]
+
+
+
